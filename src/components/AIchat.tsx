@@ -1,7 +1,8 @@
 
 import { useState } from "react";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://server-og93.onrender.com";
+
 
 export default function AIChat({ selectedAIModel }) {
   const [messages, setMessages] = useState([]);
